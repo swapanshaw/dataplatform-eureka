@@ -10,6 +10,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class DataplatformEurekaApplication {
 
 	public static void main(String[] args) throws UnknownHostException {
-		StartupHelper.launch(DataplatformEurekaApplication.class, args, "Discovery Application");
+		StartupLauncher.launch(DataplatformEurekaApplication.class, args, "Discovery Application");
 	}
 }
